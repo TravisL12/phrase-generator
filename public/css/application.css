@@ -1,0 +1,50 @@
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
+
+@keyframes show-phrase {
+  0% {
+    transform: scale3d(0, 0, 0);
+    opacity: 0; }
+  30% {
+    opacity: 1; }
+  60% {
+    transform: scale3d(1.5, 1.5, 0); }
+  100% {
+    transform: scale3d(1, 1, 0); } }
+.container .previous-phrase {
+  position: absolute;
+  color: lightgray;
+  animation: show-phrase 0.5s linear; }
+  .container .previous-phrase h3 {
+    margin: 0; }
+.container .oath-generator {
+  width: 500px;
+  height: 300px;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center; }
+  .container .oath-generator h1 {
+    margin: 0; }
+  .container .oath-generator .oath-img {
+    width: 100%;
+    margin: 20px 0; }
+  .container .oath-generator button {
+    border: 0;
+    border-radius: 0;
+    background-color: white;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    box-shadow: 3px 3px 0 0 gray;
+    outline: 0;
+    transition: 0.2s box-shadow linear; }
+    .container .oath-generator button:hover {
+      box-shadow: 0 0 0 0 gray; }
+
+/*# sourceMappingURL=application.css.map */

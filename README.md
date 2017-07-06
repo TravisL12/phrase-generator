@@ -1,2 +1,1 @@
-# phrase-generator
-Creates a small phrase for you
+This is a basic HTML/CSS template to help teach web development basics.
