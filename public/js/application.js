@@ -1,6 +1,15 @@
-const verbs = ['create', 'build', 'invent', 'run', 'jump', 'skip'];
-const adjectives = ['good', 'bad', 'fat', 'skinny', 'tall', 'short', 'gross', 'happy'];
-const pluralNouns = ['cats', 'dogs', 'frogs', 'stars', 'songs', 'projects'];
+const verbs = [
+    'create', 'build', 'invent', 'run', 'jump', 'skip', 'start', 'roll', 'told', 'look'
+];
+
+const adjectives = [
+    'good', 'bad', 'fat', 'skinny', 'tall', 'short', 'gross', 'happy'
+];
+
+const pluralNouns = [
+    'cats', 'dogs', 'frogs', 'stars', 'songs', 'projects', 'fingers',
+    'tools', 'sheds', 'thumbs', 'foreheads', 'brains', 'heads',
+];
 
 const bodyEl = document.querySelector('.container');
 
